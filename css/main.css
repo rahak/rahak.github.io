@@ -23,6 +23,11 @@ ul li {
 	list-style-type: none;
 }
 
+p {
+	font-weight:regular;
+	font-size: 10px;
+	text-align: left
+
 a {
 	text-decoration: none;
 }
