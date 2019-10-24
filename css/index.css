@@ -14,7 +14,7 @@ body {
 
 h1 {
 	font-size: 22px;
-	background-color: white;
+	background-color: ;
 }
 
 body > header {
@@ -26,7 +26,7 @@ body > header {
 ul, li {
 	display: inline-block;
 	list-style-type: none;
-	background-color: white;
+	background-color: ;
 }
 
 li {
@@ -37,8 +37,8 @@ li {
 p { 
 	display: block;
 	padding-left: 80%;
-	background-clip: content-box;
-	background-color: white;
+	background-clip: ;
+	background-color: ;
 }
 a {
 	text-decoration: none;
