@@ -26,7 +26,8 @@ ul li {
 p {
 	font-weight:regular;
 	font-size: 10px;
-	text-align: left
+	text-align: left;
+}
 
 a {
 	text-decoration: none;
