@@ -37,7 +37,6 @@ li {
 p { 
 	display: block;
 	padding-left: 80%;
-	background-color: white;
 	background-clip: content-box;
 }
 a {
