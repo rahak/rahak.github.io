@@ -6,10 +6,9 @@
 body {
 	background-image: url(/IMG_3114.jpg);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom, centre;
-	position: 
 	padding: 10px;
 }
 
