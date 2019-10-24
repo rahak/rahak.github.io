@@ -14,7 +14,7 @@ body {
 
 h1 {
 	font-size: 22px;
-	background-color: ;
+	background-color: white;
 }
 
 body > header {
@@ -26,7 +26,7 @@ body > header {
 ul, li {
 	display: inline-block;
 	list-style-type: none;
-	background-color: ;
+	background-color: white;
 }
 
 li {
@@ -37,8 +37,8 @@ li {
 p { 
 	display: block;
 	padding-left: 80%;
-	background-clip: ;
-	background-color: ;
+	background-clip: content-box;
+	background-color: white;
 }
 a {
 	text-decoration: none;
@@ -46,12 +46,4 @@ a {
 
 a:hover:before {
 	content: "> ";
-}
-header:highlight {
-    background: white;
-    padding: 3px 5px;
-    margin: -3px -5px;
-    line-height: 1.7;
-    border-radius: 5px;
-    display:inline;
 }
