@@ -24,9 +24,11 @@ ul li {
 }
 
 p {
+	float: right;
 	font-weight:regular;
 	font-size: 10px;
-	text-align: left;
+	text-align: right;
+	
 }
 
 a {
