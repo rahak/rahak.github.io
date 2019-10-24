@@ -38,6 +38,7 @@ p {
 	display: block;
 	padding-left: 80%;
 	background-clip: content-box;
+	background-color: white;
 }
 a {
 	text-decoration: none;
