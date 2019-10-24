@@ -8,7 +8,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-attachment: fixed;
-	background-position: centre;
+	background-position: bottom centre;
 	position: relative;
 	padding: 10px;
 }
