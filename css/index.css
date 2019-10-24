@@ -47,8 +47,8 @@ a {
 a:hover:before {
 	content: "> ";
 }
-highlight {
-    background: rgba(0, 0, 0, 0);
+body:highlight {
+    background: white;
     padding: 3px 5px;
     margin: -3px -5px;
     line-height: 1.7;
