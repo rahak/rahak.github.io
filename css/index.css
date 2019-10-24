@@ -6,6 +6,7 @@
 body {
 	background-image: url(/IMG_3114.jpg);
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-attachment: fixed;
 	background-position: center;
 	padding: 10px;
