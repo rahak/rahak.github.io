@@ -34,7 +34,10 @@ li {
 	font-size: 18px;
 	display: block;
 }
-
+p1 { 
+	display: inline-block;
+	background-color: white;
+}
 a {
 	text-decoration: none;
 }
