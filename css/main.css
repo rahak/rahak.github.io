@@ -26,6 +26,7 @@ ul li {
 p {
 	float: right;
 	font-weight:regular;
+	padding: 10px;
 	font-size: 10px;
 	text-align: right;
 	
