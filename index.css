@@ -7,10 +7,11 @@
 }
 
 body {
-	background: url('/IMG_3114.jpg');
+	background-image: url('/IMG_3114.jpg');
 	background-repeat: no-repeat;
 	background-size:contain;
-	padding: 16px;
+	background-position:center;
+	padding:16px;
 	font-size: 20px;
 	font-family: monospace;
 }
