@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{font-family: source code pro;}
+
+.control{height:150px;
+width: 350px;
+	float:right;
+}
+
+
+.navigation {
+	font-size:16pt;
+	text-align:right;
+	display:block;
+	padding-right:3em;
+padding-top: 120px;}
+
+ul,li {list-style-type: none;
+	display:block;}
+
+p {text-align: right;
+	display:block;
+	font-size: 10pt;
+	padding-right:5em;}
+
+
+footer {display: block;
+		text-align: right;}
+
+
+a {text-decoration:none;}
+
+a:hover:before{content: ">"}
+
+
+
