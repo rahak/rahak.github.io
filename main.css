@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div {background-color: none;
+	height:890px;
+width:800px;
+}
+
+.random{padding-left: 35em;
+}
