@@ -6,7 +6,7 @@ title: about
 <h1 class="name" style="margin-top:0px;"></h1>
 
 <div class="col-12 col-md-3 col-lg-6 intro">
-<span class="penname">Hi, I'm Rahak.</span><span class="name"></span> A designer and a creative generalist. My area of interests are narratives, digital publising and systems. I am currently based in Tallinn, Estonia and openfor workand collaborations.
+<span class="penname">Hi, I'm Rahak.</span><span class="name"></span> A designer and a creative generalist. My area of interests are narratives, digital publising and systems. I am currently based in Tallinn, Estonia and I am open for full time or part time work (as a graphic designer) and collaborations in other spectrum of interests. 
 <span class="penname">This is my blog/portfolio/digitalspace. I wish to share my thoughts and articulate them here. ⌘(ctrl) + P to download my CV!</span>
 <p></p>
 </div>
