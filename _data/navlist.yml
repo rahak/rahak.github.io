@@ -1,0 +1,11 @@
+nav_bar_title: Rahak
+nav:
+
+- title: Work
+  url: /work.html
+
+- title: Notes
+  url: /sketchbook.html
+
+- title: About
+  url: /about.html

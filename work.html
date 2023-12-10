@@ -1,0 +1,21 @@
+---
+layout: home
+title: work
+---
+<p>Selection of works and works in progress (2015-2023)</p> 
+<hr class="col-12 col-lg-6">
+<div class="row">
+    {% assign works_by_int = site.works | sort: "year" | reverse %}
+    {% for work in works_by_int %} 
+    <div class="col-12 col-lg-9 col-md-9 p-2 work-image">
+        <a href="{{ work.url }}">
+            <figure>
+            <img src="{{ work.image }}" alt="" class="img-fluid">
+            <figcaption>&#8627;{{ work.title }}</figcaption>
+            </figure>
+        </a>
+        
+    </div>
+    {% endfor %}
+</div>    
+

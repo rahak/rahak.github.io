@@ -1,0 +1,22 @@
+---
+layout: home
+---
+<hr class="col-12 col-lg-6">
+{% for tag in site.tags %}
+  <a class="{% if tag.url == page.url %}active{% endif %}" href="{{ tag.url }}">{{ tag.url | remove: "tags" | replace: "/","" }}</a>
+{% endfor %}
+
+
+{% for post in site.posts %}
+
+    {% if post.tags contains page.tag %}
+    <hr class="col-12 col-lg-6">
+ <article class="article-list ">
+    <li class="article-name col-12 col-lg-6">
+        <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%b %d, %Y" }}</time>
+    </li>
+    {% endif %}
+</article>
+{% endfor %}
+  

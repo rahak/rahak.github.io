@@ -1,0 +1,12 @@
+---
+layout: home
+title: about
+---
+<div class="col-12 col-lg-6">
+    {% if page.image %}
+        <img src="{{ site.baseurl }}{{ page.image }}" class="img-fluid" alt="cover">
+        {% endif %}
+    
+    
+    {{ content }}
+    </div>

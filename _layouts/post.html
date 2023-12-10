@@ -1,0 +1,24 @@
+---
+layout: home
+title: post
+---
+<hr class="col-12 col-lg-6">
+{% for tag in site.tags %}
+  <a class="{% if tag.url == page.url %}active{% endif %}" href="{{ tag.url }}">{{ tag.url | remove: "tags" | replace: "/","" }}</a>
+{% endfor %}
+
+<article >
+    <hr class="col-12 col-lg-6">
+    <h1>{{ page.title }}</h1>
+
+    <p>{{ page.date | date: "%b %d, %Y" }}, {% for tag in page.tags %}{{ tag | append: " | " }}{% endfor %}</p>
+
+    {% if page.image %}
+    <img src="{{ site.baseurl }}{{ page.image }}" class="col-12 col-lg-6" alt="cover">
+    {% endif %}
+    <div class="row">
+      <div class="col-12 col-lg-6">{{ content }}</div>
+    </div>
+    
+</article>
+

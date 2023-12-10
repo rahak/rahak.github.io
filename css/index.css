@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/*print*/
+
+@media print {
+  @page {
+    margin: 1.5cm;
+    counter-increment: page;
+    counter-reset: page 1;
+    @top-right {
+        content: "Page " counter(page) " of " counter(pages);
+    }
+  }
+
+  p,a {
+    font-size: 9pt !important;
+  }
+  
+  header{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+
+  .overline {
+    border-top:0px solid black !important;
+  }
+
+  img{
+    display: none !important;
+  }
+
+  hr{
+    display: none !important;
+  }
+  h1.name::before{
+    content: "P V V Karthik Hanumantha Rao" !important;
+  }
+  span.name::before{
+    content: "I am P V V Karthik Hanumantha Rao." !important;
+  }
+  span.penname{
+   display: none;
+  }
+  body{
+    border-top:0px !important;
+  }
+  .intro{
+    
+    font-size: 9pt !important;
+  }
+}
+
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  background: black;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  border-top:5px solid black;
+  margin:0px;
+  line-height: normal !important;
+  position: relative;
+  min-height: 100%;
+  padding: 0; 
+  color: black !important;
+  background-color: rgb(220, 220, 220);
+}
+
+.container-fluid {
+  padding-left: 3rem;
+  padding-right:3rem;
+  padding-top: 1.5rem;
+}
+
+.intro {
+  
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+#nav{
+  list-style-type: none !important;
+  padding-left: 0 !important;
+}
+
+.navigation {
+  font-size:1.2rem;
+  text-align:left;
+  display:block;
+  margin-top:21;
+  list-style-type: none; 
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem !important;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-weight: bold !important;
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.2rem !important;
+}
+
+ul {
+  list-style-type:disc; 
+  padding-right: 1rem;
+  font-size: 1.2rem;
+}
+ol{
+  overflow-wrap: break-word;
+  
+}
+li{
+  white-space: wrap;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+a {
+  text-decoration:underline;
+  color:#000000;
+  font-size: 1.2rem;
+  
+}
+
+a:hover{
+  
+}
+p {
+  font-size:1.2rem;
+  line-height: 1.3;
+  
+}
+
+img {
+  width: 100% !important;
+  height: auto;
+  
+}
+
+.active {
+  
+  text-decoration:line-through !important;
+  
+}
+
+@media (max-width:900px){
+  
+}
+
+/*.header {
+  text-align: center;
+  padding: 32px;
+}*/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  
+  
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.3%; /* IE10 */
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0px 20px 0px 20px;
+  height: 100%;
+  padding-left: 13px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: top;
+  width: 100%;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+	 
+  }
+  .container-fluid {
+    padding: 1.2rem;
+  }
+
+  footer{
+    padding: 1.2rem !important;
+
+  }
+
+  time{
+    text-align: end;
+  }
+
+
+}
+
+del{
+  text-decoration: line-through;
+}
+img {
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(100%);
+    
+}
+
+ img:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+
+ }
+
+ figure {
+  margin: 0;
+}
+
+.doc {
+  float: left; 
+  display: block; 
+  max-width:px;
+}
+
+table{
+  
+    width:100%;
+
+}
+.table-div{
+  overflow-x:auto !important;
+}
+table, tbody, th, td, tr {
+  border: 1px solid;
+  border-collapse: separate;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-spacing: 2px;
+}
+th, td, tr {
+  padding: 5px;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+  background:lightgray;
+  padding:5px;
+  
+} 
+
+code {
+  color: rgb(77, 77, 77);
+  background-color: lightgray;
+  padding: 2px; 
+  font-family: monospace;
+}
+
+footer {
+  padding-left: 3rem;
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  
+}
+
+.home,.fourofour {
+  height: 100vh;
+  /*border-top: 5px solid blue;*/
+}
+
+hr {
+  margin: 1rem 0;
+  color: black !important;
+  border: 0;
+  border-top: 1px solid;
+  border-width: 1px;
+  opacity: 1 !important;
+}
+
+
+.fourofour{
+  background-color: rgb(206, 234, 48);
+}
+
+.overline {
+  border-top:4px solid black;
+}
+
+.article-list{
+ display: flex;
+ flex-basis: 0;
+ flex-grow: 999;
+ flex-direction: column;
+}
+
+ .article-name {
+  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+a{
+    color: inherit;
+}
+
+.page > img{
+  filter:unset !important;
+}
+
+.work-image{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
