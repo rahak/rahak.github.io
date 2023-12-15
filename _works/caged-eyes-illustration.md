@@ -6,4 +6,3 @@ tags:
 image: /img/caged-yeyes-illustration.png
 ---
 <p></p>
-![caged eyes](/img/caged-yeyes-illustration.png)
