@@ -9,7 +9,6 @@ Link to the web app developed: [doomscroll.news](http://doomscroll.news/)
 
 Creator [Andre Otis](https://andrewotis.com/)  
 Developed by [Navanudi](https://navanudi.in)  
-I was part of the Digital Design and leading the team at Navanudi.
 
 The proposed project aims to create a web-based platform that displays news stories from around the world on an interactive map. The platform uses various open-source tools and algorithms to extract geolocation data from news stories, plot them on a map, and provide users with a way to preview related stories.
 

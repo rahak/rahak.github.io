@@ -2,7 +2,7 @@
 layout: home
 title: work
 ---
-<p>Selection of works and works in progress (2015-2023)</p> 
+<p>Selection of work and work in progress (2015-2024)</p> 
 <hr class="col-12 col-lg-6">
 <div class="row">
     {% assign works_by_int = site.works | sort: "year" | reverse %}
@@ -14,7 +14,6 @@ title: work
             <figcaption>&#8627;{{ work.title }}</figcaption>
             </figure>
         </a>
-        
     </div>
     {% endfor %}
 </div>    

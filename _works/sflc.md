@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Software Freedom Law Center, India"
-image: /img/sflc/panoptic-surveillance.png
+title: "Various illustration, Software Freedom Law Center, India"
+image: /img/sflc/Trojan-FOSS-patents.png
 year: 2023
 ---
 <p></p>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Graphic system for Elami
+title: Identity system for Elami
 image: /img/elami/elami-brand-poster.png
 date: 2022-03-29 15:20:21+530
 year: 2022

@@ -5,17 +5,18 @@ title: about
 ****
 <h1 class="name" style="margin-top:0px;"></h1>
 
-<div class="col-12 col-md-3 col-lg-6 intro">
-<span class="penname">Hi, I'm Rahak.</span><span class="name"></span> A designer and a creative generalist. My area of interests are narratives, digital publising and systems. I am currently based in Tallinn, Estonia and I am open for full time or part time work (as a graphic designer) and collaborations in other spectrum of interests. 
-<span class="penname">This is my blog/portfolio/digitalspace. I wish to share my thoughts and articulate them here. ⌘(ctrl) + P to download my CV!</span>
+<div class="col-12 col-md-3 col-lg-12 intro">
+<span class="penname">Hi, I'm Rahak.</span><span class="name"></span> a designer and creative generalist with a passion for narratives, digital publishing, and systems. I am currently based in Tallinn and Berlin.
+<span class="penname">Welcome to my blog/portfolio/digital space, where I share and articulate my thoughts and showcase my work.</span>
 <p></p>
 </div>
 
+<p>You can reach me at:</p>
 → {{ site.email }}  
-→ {{ site.phone }}  
-→ https://rahak.net 
 
 ![self](img/Cross-Ventilation.png)
+
+<!---
 ## Work
  {% for item in site.data.cv.work %}
  <div class="row">
@@ -100,5 +101,5 @@ title: about
 {% endfor %}
 
 
-
+--->
 

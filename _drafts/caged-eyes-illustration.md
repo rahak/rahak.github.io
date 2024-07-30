@@ -6,4 +6,3 @@ tags:
 image: /img/caged-eyes-opensource-privacy.png
 ---
 <p></p>
-![caged eyes](/img/caged-eyes-opensource-privacy.png)

@@ -1,6 +1,20 @@
 ---
 layout: home
-title: home
+title: work
 ---
-<p class="col-12 col-sm-3 col-md-3 col-lg-3">To be aware of every moment to find my voice unscathed and hidden deep within me, to pour it out with no modesty, to leave everychain behind and laugh at it, to live life as it haunts me and to haunt it back.</p>
-
+<p>Selection of works and works in progress (2015-2023)</p> 
+<hr class="col-12 col-lg-6">
+<div class="row">
+    {% assign works_by_int = site.works | sort: "year" | reverse %}
+    {% for work in works_by_int %} 
+    <div class="col-12 col-lg-9 col-md-9 p-2 work-image">
+        <a href="{{ work.url }}">
+            <figure>
+            <img src="{{ work.image }}" alt="" class="img-fluid">
+            <figcaption>&#8627;{{ work.title }}</figcaption>
+            </figure>
+        </a>
+        
+    </div>
+    {% endfor %}
+</div>  

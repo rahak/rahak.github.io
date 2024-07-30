@@ -2,9 +2,12 @@
 layout: home
 title: notes
 ---
+
+<p>This section features work in progress, ideas, writings, and more. It serves as a space to archive and showcase my creative processes.</p>
+
 <hr class="col-12 col-lg-6">
   {% for tag in site.tags %}
-  <a class="{% if tag.url == page.url %}active{% endif %}" href="{{ tag.url }}">{{ tag.url | remove: "tags" | replace: "/","" }}</a>
+  <a class="{% if tag.url == page.url %}active{% endif %}" href="{{ tag.url }}">{{ tag.url | remove: "tags" | replace: "/","" }}</a> &ensp;
 {% endfor %}
 <hr class="col-12 col-lg-6">
 
