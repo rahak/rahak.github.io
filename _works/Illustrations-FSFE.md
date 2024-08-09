@@ -2,7 +2,7 @@
 layout: page
 title: "Various illustrations on technology & EU, FSFE"
 image: /img/portfolio_24/apple-worm-fsfe-loop.gif
-year: 2023
+year: 2024
 ---
 <p></p>
 ![Deviceneutrality](/img/portfolio_24/apple_fsfe_device-neutrality-22.png)

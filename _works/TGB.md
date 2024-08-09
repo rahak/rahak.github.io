@@ -7,3 +7,7 @@ year: 2024
 <p></p>
 
 The WIP website can be accessed [Here](https://navanudi.github.io/the-good-batter/)
+
+![](/img/portfolio_24/TGB-dosa-navanudi.png)
+<p></p>
+![](/img/portfolio_24/TGB-idly-navanudi.png)
